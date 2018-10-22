@@ -5,6 +5,7 @@ The game is slow and unoptimized but it was fun to work on it.
 
 The game was indented to be a Terraria like (2D sandbox).
 The game was done using SFML and C++.
+The project was edited and build using CodeBlock IDE.
 
 This is one of the first game I've tried to do.
 We didn't go far developing the game, everyone was still student in programming/art etc.

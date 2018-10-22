@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Aerria" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Aerria" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../SFML-2.1/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\SFML-2.1\lib\libsfml-audio-d.a" />
+					<Add library="..\SFML-2.1\lib\libsfml-graphics-d.a" />
+					<Add library="..\SFML-2.1\lib\libsfml-main-d.a" />
+					<Add library="..\SFML-2.1\lib\libsfml-network-d.a" />
+					<Add library="..\SFML-2.1\lib\libsfml-window-d.a" />
+					<Add library="..\SFML-2.1\lib\libsfml-system-d.a" />
+					<Add directory="C:/Users/Julien/Desktop/Codage/SFML-2.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Test SFML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\..\SFML-2.1\lib\libsfml-audio.a" />
+					<Add library="..\..\SFML-2.1\lib\libsfml-graphics.a" />
+					<Add library="..\..\SFML-2.1\lib\libsfml-main.a" />
+					<Add library="..\..\SFML-2.1\lib\libsfml-network.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic-errors" />
+			<Add option="-std=c++11" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+		</Compiler>
+		<Unit filename="include/AABB.hpp" />
+		<Unit filename="include/Block.hpp" />
+		<Unit filename="include/DropedItem.hpp" />
+		<Unit filename="include/Entity.hpp" />
+		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/GlobalSys.hpp" />
+		<Unit filename="include/Inventory.hpp" />
+		<Unit filename="include/Item.hpp" />
+		<Unit filename="include/Level.hpp" />
+		<Unit filename="include/Menu/Menu.hpp" />
+		<Unit filename="include/Menu/SousMenuMulti.h" />
+		<Unit filename="include/Multi/ChatMulti.h" />
+		<Unit filename="include/Multi/MainMulti.h" />
+		<Unit filename="include/Multi/PacketCenter.h" />
+		<Unit filename="include/Outils.hpp" />
+		<Unit filename="include/PerlinNoise.hpp" />
+		<Unit filename="include/Personnage.hpp" />
+		<Unit filename="include/Region.hpp" />
+		<Unit filename="include/SingletonWindow.h" />
+		<Unit filename="include/Tilemap.hpp" />
+		<Unit filename="include/World.hpp" />
+		<Unit filename="include/allEnum.h" />
+		<Unit filename="include/entTypeEnum.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mob/code/test.cpp" />
+		<Unit filename="mob/head/test.h" />
+		<Unit filename="src/AABB.cpp" />
+		<Unit filename="src/Block.cpp" />
+		<Unit filename="src/DropedItem.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GlobalSys.cpp" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Level.cpp" />
+		<Unit filename="src/Menu/Menu.cpp" />
+		<Unit filename="src/Menu/SousMenuMulti.cpp" />
+		<Unit filename="src/Multi/ChatMulti.cpp" />
+		<Unit filename="src/Multi/MainMulti.cpp" />
+		<Unit filename="src/Multi/PacketCenter.cpp" />
+		<Unit filename="src/Outils.cpp" />
+		<Unit filename="src/PerlinNoise.cpp" />
+		<Unit filename="src/Personnage.cpp" />
+		<Unit filename="src/Region.cpp" />
+		<Unit filename="src/SingletonWindow.cpp" />
+		<Unit filename="src/Tilemap.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/entTypeEnum.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
